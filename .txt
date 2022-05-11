@@ -9,5 +9,6 @@ Par - 1000000
 0.0020013s 64 
 0.0020048s 128
 
+_____________________________________________
 strategies:
 https://www.cse.chalmers.se/edu/year/2015/course/pfp/Papers/strategies-tutorial-v2.pdf
