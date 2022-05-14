@@ -10,6 +10,9 @@ import Data.Time.Clock
 data Tree a = Node a (Tree a) (Tree a) | Empty deriving(Show)
 
 partree f Empty = return Empty
+{- partree f (Node a Empty Empty) = do
+    a' <- rpar (f a)
+    return (Node a' Empty Empty) -}
 partree f (Node a l r) = do
     a' <- rpar (f a)
     l' <- partree f l

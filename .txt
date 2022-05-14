@@ -9,6 +9,19 @@ Par - 1000000
 0.0020013s 64 
 0.0020048s 128
 
+Tree - Snd version
+0.0020024s
+
+Par
+0.0020014s
+
+Tree - Fst version
+0.0030009s
+0.0020022s
+
+Par
+0.0019934s
+0.0019988s
 _____________________________________________
 strategies:
 https://www.cse.chalmers.se/edu/year/2015/course/pfp/Papers/strategies-tutorial-v2.pdf
