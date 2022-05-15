@@ -1,3 +1,4 @@
+{-# LANGUAGE FlexibleContexts #-}
 module StrategyExample where
 
 import Control.Parallel.Strategies
@@ -5,23 +6,13 @@ import ParMapExample(comp2)
 import Data.Time.Clock
 import Data.Tuple(swap)
 
-comp x = comp2 . comp2 . comp2 x
+comp x = comp2 $ comp2 $ comp2 x
 
-{- parMap :: Strategy [a]
-parMap (x:xs)= do
-    x'  <- rpar x
-    xs' <- parMap xs
-    return (x':xs') -}
-
-{- parPair :: Strategy [a]
-parPair (x, y)= do
-    x'  <- rpar x
-    y'  <- rpar y
-    return (x':y') -}
-
-parPairExample = do
+--par pair
+example = do
     t1 <- getCurrentTime
-    let pair = parPair (comp 10, comp 11)
+    --let pair = (comp 300, comp 400) `using` parTuple2 rpar rpar 
+    let pair = (comp 300, comp 400) `using` parTuple2 rseq rseq 
     print $ swap pair
 
     t2 <- getCurrentTime

@@ -25,3 +25,33 @@ Par
 _____________________________________________
 strategies:
 https://www.cse.chalmers.se/edu/year/2015/course/pfp/Papers/strategies-tutorial-v2.pdf
+https://www.youtube.com/watch?v=lT_1TcYglQM&list=PLYItvall0TqJ1jteUbGOHfBycg5NM9thq&index=2
+
+Par pair strategy (10, 11)
+0.0019999s
+0.0009984s imediate rerun
+0.0010001s
+
+Sync
+0.0009989s 
+0.0010027s imediate rerun
+0.0010001s
+
+(30,40)
+
+Sync
+0.0009968s
+0.0003075s imediate rerun
+
+Par
+0.0011928s
+0.0010002s
+
+(300,400)
+Par
+0.0009976s
+0.0009963s
+
+Sync
+0.0009992s
+0.0010049s

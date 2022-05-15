@@ -1,7 +1,7 @@
 module Main where
 
 --import ParMapExample(example)
---import StrategyExample(parPairExample)
+--import StrategyExample(example)
 --import ParPairExample(example)
 import TreeExample(example)
 
