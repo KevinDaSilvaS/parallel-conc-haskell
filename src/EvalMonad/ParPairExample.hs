@@ -1,4 +1,4 @@
-module ParPairExample where
+module EvalMonad.ParPairExample where
 
 import ParMapExample(comp2)
 

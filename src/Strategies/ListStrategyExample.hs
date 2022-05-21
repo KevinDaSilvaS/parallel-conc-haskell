@@ -1,6 +1,6 @@
-module ListStrategyExample where
+module Strategies.ListStrategyExample where
 
-import ParMapExample(comp2)
+import EvalMonad.ParMapExample(comp2)
 import Control.Parallel.Strategies
 
 import Control.Exception

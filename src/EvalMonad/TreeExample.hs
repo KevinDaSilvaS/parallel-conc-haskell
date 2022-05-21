@@ -1,6 +1,6 @@
-module TreeExample where
+module EvalMonad.TreeExample where
 
-import ParMapExample(comp2)
+import EvalMonad.ParMapExample(comp2)
 
 import Control.Parallel.Strategies
     

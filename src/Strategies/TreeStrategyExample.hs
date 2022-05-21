@@ -1,7 +1,7 @@
-module TreeStrategyExample where
+module Strategies.TreeStrategyExample where
 
 import Control.Parallel.Strategies
-import ParMapExample(comp2)
+import EvalMonad.ParMapExample(comp2)
 
 import Control.Exception
 import Data.Time.Clock

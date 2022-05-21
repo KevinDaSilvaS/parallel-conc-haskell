@@ -1,4 +1,4 @@
-module ParMapExample where
+module EvalMonad.ParMapExample where
 
 import Control.Parallel.Strategies
 

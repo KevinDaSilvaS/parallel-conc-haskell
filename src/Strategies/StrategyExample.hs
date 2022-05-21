@@ -1,8 +1,8 @@
 {-# LANGUAGE FlexibleContexts #-}
-module StrategyExample where
+module Strategies.StrategyExample where
 
 import Control.Parallel.Strategies
-import ParMapExample(comp2)
+import EvalMonad.ParMapExample(comp2)
 import Data.Time.Clock
 import Data.Tuple(swap)
 

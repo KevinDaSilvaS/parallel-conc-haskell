@@ -1,11 +1,11 @@
 module Main where
 
---import ParMapExample(example)
---import StrategyExample(example)
---import ParPairExample(example)
-import TreeExample(example)
---import ListStrategyExample(example)
---import TreeStrategyExample(example)
+--import EvalMonad.ParMapExample(example)
+--import Strategies.StrategyExample(example)
+--import EvalMonad.ParPairExample(example)
+import EvalMonad.TreeExample(example)
+--import Strategies.ListStrategyExample(example)
+--import Strategies.TreeStrategyExample(example)
 
 main = do example
   
