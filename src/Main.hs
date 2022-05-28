@@ -6,7 +6,11 @@ module Main where
 --import EvalMonad.TreeExample(example)
 --import Strategies.ListStrategyExample(example)
 --import Strategies.TreeStrategyExample(example)
-import ParMonad.ParMonadExample(example)
+--import ParMonad.ParMonadExample(example)
+
+-- Concurrency
+--import Concurrent.Example(example)
+import Concurrent.Reminder(example)
 
 main = do example
   
