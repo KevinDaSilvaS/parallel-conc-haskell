@@ -10,7 +10,8 @@ module Main where
 
 -- Concurrency
 --import Concurrent.Example(example)
-import Concurrent.Reminder(example)
+--import Concurrent.Reminder(example)
+import Concurrent.MVars(example)
 
 main = do example
   
