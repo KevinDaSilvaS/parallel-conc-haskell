@@ -11,7 +11,8 @@ module Main where
 -- Concurrency
 --import Concurrent.Example(example)
 --import Concurrent.Reminder(example)
-import Concurrent.MVars(example)
+--import Concurrent.MVars(example)
+import Concurrent.Channel(example)
 
 main = do example
   
